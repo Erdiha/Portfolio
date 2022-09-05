@@ -1,4 +1,3 @@
-import { get } from 'https';
 import React, { useEffect, useRef, useState } from 'react';
 import './home.css';
 import './work.css';
