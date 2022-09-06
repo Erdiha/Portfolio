@@ -25,7 +25,7 @@ const [emailIsSent,setEmailIsSent] = useState(false);
       <label>Email</label> <br />
       <input className="email-field" required type="email" name="user_email" /><br /><br />
       <label>Message</label> <br />
-      <textarea className="text-field" required cols="40" rows="15" name="message" /> <br />
+      <textarea className="text-field" required cols="40" rows="13" name="message" /> <br />
       <input  className='email-send-button'  type="submit" value="Send" />
     </form>
     )
