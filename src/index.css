@@ -1,5 +1,5 @@
 *,::after,::before{
-  font-family:roboto slab !important;
+  font-family:halvetica,sans-serif !important;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -246,9 +246,10 @@ textarea {
   
 }
 .form{
+
 margin-left: 20%;
 color: black;
-
+z-index: 100;
 }
 @media screen and (max-width: 768px){
 
@@ -279,6 +280,10 @@ color: black;
     top: 1rem;
   }
   .footer-contact-wrappper{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
     width: 80%;
     height: 60%;
   }
@@ -287,7 +292,10 @@ color: black;
     background-repeat: no-repeat;
     background-size:contain ;
     transition: all 0.4s ease-in-out;
+    display: inline-block;
     /* border-radius: 100%; */
+    width: 70px;
+    height: 70px;
 
   }
   

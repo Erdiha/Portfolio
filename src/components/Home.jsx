@@ -68,11 +68,11 @@ import './home.css';
     }
   const clickHandler = ()=>{
     setShowforms(cur=>!cur);
-    !showforms?setButtonName("Close"):setButtonName("Lets Talk")
+    !showforms?setButtonName("Close"):setButtonName("Let's Talk")
   }
   return (
     <div className='home-wrapper'>
-      <span  className=" white-paint" alt="" />
+      <span  className="white-paint"  />
         <div className=" section first-page-wrapper">
            <div className='bio-wrapper'> 
                 <h2>I am Erdi</h2>
