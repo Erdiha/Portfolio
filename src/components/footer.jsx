@@ -1,10 +1,11 @@
 import React from 'react'
+import pdf from '../assets/Erdi_Haciogullari_Resume.pdf'
 const Footer = () => {
   return (
     <div className='footer-wrapper'>
         <div className="footer-greet">
           <hr className='footer-hr-top hr' />
-          <h1><a href = {require('../static/Erdi_Haciogullari_Resume.pdf')} download target = "_blank">Download <span style={{color: "#DF7861"}}>Resume</span></a></h1>
+          <h1><a  download href= {pdf}  target = "_blank">Download <span style={{color: "#DF7861"}}>Resume</span></a></h1>
           <hr className='footer-hr-bottom hr' />
           </div>
         <div className="footer-contact-wrappper">

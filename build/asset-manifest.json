@@ -1,23 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.456674e5.chunk.css",
-    "main.js": "/static/js/main.4d0eff45.chunk.js",
-    "main.js.map": "/static/js/main.4d0eff45.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.135b2f76.js",
-    "runtime-main.js.map": "/static/js/runtime-main.135b2f76.js.map",
-    "static/js/2.d9428b89.chunk.js": "/static/js/2.d9428b89.chunk.js",
-    "static/js/2.d9428b89.chunk.js.map": "/static/js/2.d9428b89.chunk.js.map",
+    "main.css": "/static/css/main.e6137ea8.css",
+    "main.js": "/static/js/main.fba4e4dd.js",
+    "static/media/erdi4.png": "/static/media/erdi4.b50ec51dd25eb3a1ff91.png",
+    "static/media/Erdi_Haciogullari_Resume.pdf": "/static/media/Erdi_Haciogullari_Resume.7b204a1f95f4e3c3df00.pdf",
+    "static/media/Handshake_logo_1.png": "/static/media/Handshake_logo_1.e308940b88800ca0ada4.png",
+    "static/media/instagram.png": "/static/media/instagram.ac32ec0a111aeba03298.png",
+    "static/media/github.png": "/static/media/github.22cfdd1cba253783ce51.png",
+    "static/media/linkedin.png": "/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/index.html",
-    "static/css/main.456674e5.chunk.css.map": "/static/css/main.456674e5.chunk.css.map",
-    "static/js/2.d9428b89.chunk.js.LICENSE.txt": "/static/js/2.d9428b89.chunk.js.LICENSE.txt",
-    "static/media/Erdi_Haciogullari_Resume.c00a1164.pdf": "/static/media/Erdi_Haciogullari_Resume.c00a1164.pdf",
-    "static/media/index.css": "/static/media/linkedin.032cf8a6.png",
-    "static/media/home.css": "/static/media/erdi4.b50ec51d.png"
+    "main.e6137ea8.css.map": "/static/css/main.e6137ea8.css.map",
+    "main.fba4e4dd.js.map": "/static/js/main.fba4e4dd.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.135b2f76.js",
-    "static/js/2.d9428b89.chunk.js",
-    "static/css/main.456674e5.chunk.css",
-    "static/js/main.4d0eff45.chunk.js"
+    "static/css/main.e6137ea8.css",
+    "static/js/main.fba4e4dd.js"
   ]
 }
