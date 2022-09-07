@@ -1,5 +1,5 @@
 import React from 'react'
-import pdf from '../assets/Erdi_Haciogullari_Resume.pdf'
+import pdf from '../static/Erdi_Haciogullari_Resume.pdf'
 const Footer = () => {
   return (
     <div className='footer-wrapper'>
