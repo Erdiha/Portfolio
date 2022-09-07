@@ -4,7 +4,7 @@ const Footer = () => {
     <div className='footer-wrapper'>
         <div className="footer-greet">
           <hr className='footer-hr-top hr' />
-          <h1><a href = {require('../static/Erdi_Haciogullari_Resume.pdf')} target = "blank">View <span style={{color: "#DF7861"}}>Resume</span></a></h1>
+          <h1><a href = {require('../static/Erdi_Haciogullari_Resume.pdf')} download target = "_blank">Download <span style={{color: "#DF7861"}}>Resume</span></a></h1>
           <hr className='footer-hr-bottom hr' />
           </div>
         <div className="footer-contact-wrappper">
