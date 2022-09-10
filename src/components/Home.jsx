@@ -35,9 +35,9 @@ import './home.css';
               footerSelector.classList.remove("footerActive");
            
             }
-            getlistitems.forEach(item=>{
-              item.classList.add("activeList")
-            })
+            // getlistitems.forEach(item=>{
+            //   item.classList.add("activeList")
+            // })
           } 
           else{
             getHome.classList.add("nav-items-active");
@@ -45,12 +45,12 @@ import './home.css';
             footerSelector.classList.remove("footerActive");
             getProjects.classList.remove("nav-items-active");
             setIsInters(()=>false);
-            getlistitems.forEach(item=>{
-              item.classList.remove("activeList");
-           });
-           getWorkitems.forEach(item=>{
-             item.classList.remove("mobileActive")
-           });
+          //   getlistitems.forEach(item=>{
+          //     item.classList.remove("activeList");
+          //  });
+          //  getWorkitems.forEach(item=>{
+          //    item.classList.remove("mobileActive")
+          //  });
           };
       });
     if(bottomSelector && getlistitems && getProjects && getlistitems && getWorkitems){
