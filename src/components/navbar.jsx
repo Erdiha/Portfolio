@@ -2,10 +2,8 @@ import React, { useEffect } from 'react';
 
 const Navbar = (props) => {
   const handleClick = (e)=>{
-      const getNavItems = document.querySelectorAll(".n-items");
-      const footerSelector = document.querySelector("#footer")
       props.getName(()=>e.target.name)
-      
+      console.log(e.target.name)
   }
   return (
     <div className='nav-wrapper'>

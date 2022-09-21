@@ -10,14 +10,13 @@ import './home.css';
   const [isInters,setIsInters] = useState(false);
   
   useEffect(()=>{
-    const bottomSelector = document.querySelector(".bottom-span")
-    const footerSelector = document.querySelector("#footer")
+    const bottomSelector = document.querySelector(".bottom-span");
+    const footerSelector = document.querySelector("#footer");
     const getlistitems = document.querySelectorAll('.list-item'); 
     const getWorkitems = document.querySelectorAll('.w');
     const getProjects = document.querySelector(".bb");
-    const getContact = document.querySelector(".cc")
-    const getHome = document.querySelector(".aa")
-    const getWorkd = document.querySelectorAll(".work-describe")
+    const getContact = document.querySelector(".cc");
+    const getHome = document.querySelector(".aa");
    
     const observer = new IntersectionObserver((entries,options)=>{       
           if(entries[0].isIntersecting){
@@ -33,11 +32,11 @@ import './home.css';
               getHome.classList.remove("nav-items-active");
               getContact.classList.remove("nav-items-active");
               footerSelector.classList.remove("footerActive");
-           
             }
-            // getlistitems.forEach(item=>{
-            //   item.classList.add("activeList")
-            // })
+            getlistitems.forEach(item=>{
+              item.classList.add("activeList");
+              item.classList.remove("activeHide")
+            })
           } 
           else{
             getHome.classList.add("nav-items-active");
@@ -45,12 +44,10 @@ import './home.css';
             footerSelector.classList.remove("footerActive");
             getProjects.classList.remove("nav-items-active");
             setIsInters(()=>false);
-          //   getlistitems.forEach(item=>{
-          //     item.classList.remove("activeList");
-          //  });
-          //  getWorkitems.forEach(item=>{
-          //    item.classList.remove("mobileActive")
-          //  });
+            getlistitems.forEach(item=>{
+              item.classList.remove("activeList");
+              item.classList.add("activeHide")
+           });
           };
       });
     if(bottomSelector && getlistitems && getProjects && getlistitems && getWorkitems){
@@ -61,7 +58,6 @@ import './home.css';
     const getLetsTalk = document.querySelector(".get-in-touch-container");
     if(getLetsTalk){
       if(!showforms){
-        console.log(showforms)
         getLetsTalk.classList.add("getintouch-active")
       }else{
       }

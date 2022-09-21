@@ -106,6 +106,7 @@ img{
     animation-duration: 2000ms !important;
     background-color: black;
   }
+
   
   @keyframes slideImage{
    0%{transform: translate(-100vw);}
@@ -130,6 +131,7 @@ img{
   }
   .get-in-touch-button1{
     display: none;
+ 
   }
   
 .get-in-touch-button{
@@ -149,7 +151,7 @@ img{
     animation-duration: 2000ms !important;
     left: auto;
     z-index: 100;
-    color: black;
+    color: black!important;
   }
 .get-in-touch-button:hover{
     background-color: var(--third-color);
@@ -300,6 +302,7 @@ img{
     } 
     .get-in-touch-button{
       display: none;
+
     }
     .get-in-touch-button1:hover{
       transform: scale(1.1);

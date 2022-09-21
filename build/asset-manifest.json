@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5435c600.css",
-    "main.js": "/static/js/main.5663aa92.js",
+    "main.css": "/static/css/main.7405f631.css",
+    "main.js": "/static/js/main.ea27781c.js",
     "static/media/erdi4.png": "/static/media/erdi4.b50ec51dd25eb3a1ff91.png",
     "static/media/Erdi_Haciogullari_Resume.pdf": "/static/media/Erdi_Haciogullari_Resume.7b204a1f95f4e3c3df00.pdf",
     "static/media/Handshake_logo_1.png": "/static/media/Handshake_logo_1.e308940b88800ca0ada4.png",
@@ -9,11 +9,11 @@
     "static/media/github.png": "/static/media/github.22cfdd1cba253783ce51.png",
     "static/media/linkedin.png": "/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/index.html",
-    "main.5435c600.css.map": "/static/css/main.5435c600.css.map",
-    "main.5663aa92.js.map": "/static/js/main.5663aa92.js.map"
+    "main.7405f631.css.map": "/static/css/main.7405f631.css.map",
+    "main.ea27781c.js.map": "/static/js/main.ea27781c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5435c600.css",
-    "static/js/main.5663aa92.js"
+    "static/css/main.7405f631.css",
+    "static/js/main.ea27781c.js"
   ]
 }
