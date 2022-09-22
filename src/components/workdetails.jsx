@@ -1,14 +1,12 @@
 //links for the project details
 export const workdetails={
-    title:["Utility Site", "Quotes Site","Cya App","Quiz Game"],
+    title:["Quiz Game","Utility Site", "Quotes Site","Cya App"],
     describe: 
-    ["Utility Site is a fun side project I created to showcase my skills as a frontend web engineer.",
-
-    "Quotes Site is a simple site using MongoDB database to store user inputs and retrieve data to display.",
-
+      ["Quiz game is a fun side project that I created which can be played with one or two people.",
+    "Utility Site is a fun side project I created to showcase my skills as a frontend web engineer.",
+     "Quotes Site is a simple site using MongoDB database to store user inputs and retrieve data to display.",
     "Cya App is a scheduling app I helped create along with four of my classmates as our final project at UCLA. ",
-      
-      "Quiz game is a fun side projec that I created which can be played with one or two people."
+
  ],
 //     technology: ["React", "NodeJs", "Express",
 //     "MongoDB", "Heroku","Typescript","JavaScript",
@@ -34,9 +32,10 @@ const quizap =["React", " NodeJs",
 " API"];
 export const quiz_game = quizap.join(",")
 //links of the projects
-export const links =[
+export const links = [
+    "https://main.d2en2iuoalsx7.amplifyapp.com/",
     "https://typescript-utility-app.herokuapp.com/",
     "https://typescript-quotes-app.herokuapp.com/",
   "https://cya-client-cs130.herokuapp.com/login",
-    "https://main.d2en2iuoalsx7.amplifyapp.com/"
+  
   ]

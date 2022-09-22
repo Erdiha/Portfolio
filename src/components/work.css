@@ -191,17 +191,16 @@
     }
      .work-wrapper{
         display: flex;
-        position: relative;
+        position: absolute;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 100%;
+        min-width: 90%;
         min-width: none;
         min-height:none;
         bottom: none;
-        min-height: 100vh;
         top:none;
-       
+        min-height: 100vh;
     }
     #work-lists{
       
