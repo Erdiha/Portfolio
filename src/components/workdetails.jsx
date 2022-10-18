@@ -32,10 +32,9 @@ const quizap =["React", " NodeJs",
 export const quiz_game = quizap.join(",")
 //links of the projects
 export const links = [
-  "https://myflix-62pxwefv9-erdiha.vercel.app/",
-    "https://main.d2en2iuoalsx7.amplifyapp.com/",
-    "https://typescript-utility-app.herokuapp.com/",
-    
-    "https://cya-client-cs130.herokuapp.com/login",
-  
-  ]
+  'https://myflix-eight.vercel.app/',
+  'https://main.d2en2iuoalsx7.amplifyapp.com/',
+  'https://typescript-utility-app.herokuapp.com/',
+
+  'https://cya-client-cs130.herokuapp.com/login',
+];
