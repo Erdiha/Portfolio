@@ -1,7 +1,7 @@
 import React from 'react';
 import './home.css';
 import './work.css';
-import { cya_app, links, quotes_app, utility_app, workdetails } from './workdetails';
+import {  links,workdetails } from './workdetails';
 
 const Work = () => {
   const { describe} = workdetails;
